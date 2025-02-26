@@ -1,4 +1,4 @@
-# İki Sorun ve Çözüm Önerisi
+# Linux kernel güncellemesi sonrası karşılaşılan hataların çözümü
 
 Merhabalar, bugün karşılaştığım iki hatadan dolayı bu repoyu açmak istedim. Laptopumda bir dahili bir de harici olmak üzere iki tane ekran kartım var. Bu kartlarımdan birisi Nvidia harici ekran kartı, diğeri ise Amd işlemcimin dahili ekran kartı. Linux kernelini güncellediğimde ikinci monitörümün çalışmadığını gördüm. Cihazımda HDMI kablosu ile harici bir monitör kullanıyorum. HDMI girişinin bağlı olduğu ekran kartı Nvidia ekran kartı. Linux kernelini güncellediğimde Nvidia eski kernel dosyaları çalışmadığı için cihazımda harici monitör kullanamadım. Bu sorunun çözümünü aşağıda anlatıyorum.
 
@@ -63,7 +63,7 @@ Böylelikle iki sorun da çözülmüş oluyor.
 
 
 
-# Two Issues and Their Solutions
+# The solution to the issues encountered after the Linux kernel update.
 
 Hello, I wanted to open this repo due to two issues I encountered today. I have two graphics cards in my laptop, one internal and one external. One of these cards is an Nvidia external graphics card, and the other is an AMD integrated graphics card in my processor. When I updated the Linux kernel, I noticed that my second monitor was not working. I use an external monitor with an HDMI cable on my device. The HDMI input is connected to the Nvidia graphics card. When I updated the Linux kernel, I could not use the external monitor on my device because the Nvidia drivers for the old kernel were not working. Here is the solution to this issue.
 
